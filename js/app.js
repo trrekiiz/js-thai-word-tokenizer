@@ -150,8 +150,8 @@ function createTextFromVoice(blob) {
 		}).then(function(data) {
 			// console.log(data.results[0].alternatives[0].transcript);
             document.getElementById("recordingsResult").innerHTML= data.results[0].alternatives[0].transcript
-            document.getElementById("tokenize").innerHTML= tokenize(data.results[0].alternatives[0].transcript).join('|');
-            fuseText(tokenize(data.results[0].alternatives[0].transcript).join('|'));
+            document.getElementById("tokenize").innerHTML= tokenize(data.results[0].alternatives[0].transcript).join(' ');
+            fuseText(tokenize(data.results[0].alternatives[0].transcript).join(' '));
 		});
 	 };
 }
@@ -160,7 +160,6 @@ function fuseText(voiceText) {
 	var options = {
 		id: "title",
 		shouldSort: true,
-		tokenize: true,
 		threshold: 0.8,
 		location: 0,
 		distance: 800,
