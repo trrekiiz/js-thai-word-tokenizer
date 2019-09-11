@@ -13,7 +13,7 @@ var stopButton = document.getElementById("stopButton");
 
 var voice = ""
 
-var types =[
+var types = [
     {
         title: "Condo",
         keywords: {
