@@ -168,6 +168,57 @@ var types = [
         }
     },
     {
+        title: "BTS ทองหล่อ",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["BTS ทองหล่อ","ทองหล่อ"],
+            engKeywords: ["BTS Thonglor"]
+        }
+    },
+    {
+        title: "BTS ปากเกร็ด",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["BTS ปากเกร็ด","ปากเกร็ด"],
+            engKeywords: ["BTS Pakket"]
+        }
+    },
+    {
+        title: "BTS พระนคร",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["BTS พระนคร","พระนคร"]
+        }
+    },
+    {
+        title: "BTS หลักสี่",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["BTS หลักสี่","หลักสี่"]
+        }
+    },
+    {
+        title: "BTS เอกมัย",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["BTS เอกมัย","เอกมัย"]
+        }
+    },
+    {
+        title: "MRT พระราม 9",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["MRT พระราม 9","พระราม 9"]
+        }
+    },
+    {
+        title: "สนามบินอุดรธานี",
+        type: "transport_link",
+        keywords: {
+            thaiKeywords: ["สนามบินอุดร","อุดร"]
+        }
+    },
+    {
         title: "Ready to move",
         type: "project_status",
         keywords: {
